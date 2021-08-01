@@ -24,6 +24,7 @@ body{
     /* width: 50%; */
 }
 .smalltext{
+    width: 19rem;
     font-size: 1.1rem;
     /* padding: 20px; */
     margin-top: 2rem;
@@ -120,7 +121,7 @@ color: gold;
         align-items: center;
     }
     .hero{
-        width: 30rem;
+        width: 25rem;
     }
     .star-rating{
         margin-top: 1rem;
@@ -140,7 +141,7 @@ color: gold;
     }
     @media(max-width:622px){
         .container{
-            width: 30rem;
+            width: 25rem;
         }.second-flex{
             width: 25rem;
         }
