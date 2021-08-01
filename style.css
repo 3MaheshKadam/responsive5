@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 60rem;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: tomato; */
+}
+.title{
+    width: 30rem;
+    padding: 20px;
+    /* background-color: red; */
+}
+.text{
+    color: violet;
+    font-weight: 700;
+    font-size: 2.5rem;
+    /* width: 50%; */
+}
+.smalltext{
+    font-size: 1.1rem;
+    /* padding: 20px; */
+    margin-top: 2rem;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+}
+.second-flex{
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    /* background-color: gray; */
+}
+.star-rating i{
+color: gold;
+}
+.textt{
+    padding-left: 10px;
+}
+.first{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.second{
+    display: flex;
+    align-self: center;
+}
+.third{
+    display: flex;
+    align-self: flex-end;
+}
+/* section 2 starts here */
+.hero{
+    width: 18rem;
+    height: 12rem;
+    padding: 20px;
+    background-color: hotpink;
+    margin-top: 2rem;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+
+}
+.two{
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    display: flex;
+    justify-content:space-around;
+}
+.heading img{
+    width: 2.5rem;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    font-size: 1.2rem;
+}
+.color{
+    color:rgb(97, 9, 53);
+}
+.sub-text{
+    margin-top: 1rem;
+}
+.a{
+    margin-top: 0;
+}
+.b{
+    margin-top: 1rem;
+}
+.c{
+    margin-top: 2rem;
+}
+@media(max-width:700px){
+    .container{
+        width:40rem;
+    }
+    .title{
+        width:30rem;
+    }
+    .second-flex{
+        width:30rem;
+    }
+    .one{
+        flex-direction: column;
+        align-items: center;
+    }
+    .two{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero{
+        width: 30rem;
+    }
+    .star-rating{
+        margin-top: 1rem;
+    }
+    .first{
+        flex-direction: column;
+        align-items: center;
+    }
+    .second{
+        flex-direction: column;
+        align-items: center;
+    }
+    .third{
+            flex-direction: column;
+            align-self: center;
+            align-items: center;
+    }
+    @media(max-width:622px){
+        .container{
+            width: 30rem;
+        }.second-flex{
+            width: 25rem;
+        }
+        .title{
+            width: 25rem;
+        }
+        .hero{
+            width: 25rem;
+        }
+    }  
+}
